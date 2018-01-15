@@ -1,0 +1,17 @@
+<div class="error">
+	<p>MailPoet Newsletters - Mandrill Spam and Bounce Cleaner error: Your environment doesn't meet all of the system requirements listed below.</p>
+
+	<ul class="ul-disc">
+		<li><strong>PHP <?php echo WNC_REQUIRED_PHP_VERSION; ?>+</strong>
+			<em>(You're running version <?php echo PHP_VERSION; ?>)</em>
+		</li>
+
+		<li><strong>WordPress <?php echo WNC_REQUIRED_WP_VERSION; ?>+</strong>
+			<em>(You're running version <?php echo esc_html( $wp_version ); ?>)</em>
+		</li>
+		
+		<li>The <a href="https://wordpress.org/plugins/wysija-newsletters/">MailPoet</a> plugin must be installed and activated.</li>
+	</ul>
+
+	<p>If you need to upgrade your version of PHP you can ask your hosting company for assistance, and if you need help upgrading WordPress you can refer to <a href="http://codex.wordpress.org/Upgrading_WordPress">the Codex</a>.</p>
+</div>
